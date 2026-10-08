@@ -1,0 +1,11 @@
+Smart Parking Platform Resource Plan,,,,,
+Role,Name,FTE %,Estimated Hours,Hourly Rate,Cost
+Project Manager,Sean,0.5,320,$65,"$20,800"
+UX/UI Designer,Sean,0.35,224,$55,"$12,320"
+Web Application Developer,Sean,0.75,480,$75,"$36,000"
+Mobile Application Developer,Sean,0.75,480,$80,"$38,400"
+Backend/API Developer,Sean,1,640,$85,"$54,400"
+Mapping & Payment Integration Developer,Sean,0.6,384,$85,"$32,640"
+QA & Test Engineer,Sean,0.6,384,$55,"$21,120"
+DevOps & Security Engineer,Sean,0.4,256,$90,"$23,040"
+TOTAL,,,"3,168",,"$238,720"

@@ -1,0 +1,15 @@
+Smart Parking Platform RACI Matrix,,,,,,,,,
+Task / Deliverable,PM,PO/BA,UX/UI,Web,Mobile,Backend,Integration,QA,DevOps / Security
+Requirements and competitive analysis,A,R,C,C,C,C,C,I,I
+Stakeholder approval and scope baseline,R,A,C,I,I,I,I,I,C
+UX/UI design,I,A,R,C,C,I,I,C,I
+Solution architecture and data design,I,C,C,C,C,A/R,C,I,C
+Web application development,I,C,C,A/R,I,C,I,C,I
+Mobile application development,I,C,C,I,A/R,C,C,C,I
+Backend API and analytics,I,C,I,C,C,A/R,C,C,C
+Mapping and navigation integration,I,C,C,C,C,C,A/R,C,I
+Payment integration,I,C,I,C,C,R,A/R,C,C
+"Security, privacy, and compliance",I,C,I,C,C,C,C,R,A/R
+System and acceptance testing,I,C,I,C,C,C,C,A/R,C
+Cloud deployment and release,C,I,I,I,I,C,C,C,A/R
+Project tracking and stakeholder reporting,A/R,R,I,I,I,I,I,I,I

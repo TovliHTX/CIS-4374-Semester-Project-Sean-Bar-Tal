@@ -1,0 +1,30 @@
+Smart Parking Platform RACI Matrix,,,,,,,,,,,,
+Task / Deliverable,PM,PO/BA,UX/UI,Web,Mobile,Backend,Mapping,Payment,QA,DevOps / Security,Parking Operations,Finance / Billing
+Requirements and competitive analysis,A,R,C,C,C,C,C,C,C,C,C,C
+Stakeholder approval and scope baseline,R,A,C,I,I,I,I,I,C,C,C,C
+Requirements traceability and change control,A,R,C,C,C,C,C,C,R,C,C,C
+Accessible UX/UI and workflow design,I,A,R,C,C,C,C,C,C,C,C,C
+"Solution architecture, API and data design",I,C,C,C,C,A/R,C,C,C,R,C,C
+Web application development,I,C,C,A/R,I,C,C,C,C,C,C,I
+Mobile application development,I,C,C,I,A/R,C,C,C,C,C,C,I
+"Accounts, authentication, vehicles and access roles",I,C,C,R,R,A/R,I,I,C,R,C,C
+"Parking search, filters and location details",I,C,C,R,R,A/R,R,I,C,I,C,I
+Availability feeds and occupancy updates,I,C,I,R,R,A/R,R,I,C,C,C,I
+"Reservations, history and booking conflict prevention",I,C,C,R,R,A/R,C,C,C,C,C,I
+Session extensions and additional charges,I,C,C,R,R,A/R,I,R,C,I,C,C
+Mapping and navigation integration,I,C,C,R,R,C,A/R,I,C,C,C,I
+Payment processing and paid-booking confirmation,I,C,I,R,R,R,I,A/R,C,C,C,C
+"Receipts, eligible refunds and transaction status",I,C,C,R,R,R,I,A/R,C,C,C,C
+"Notifications, reminders and preferences",I,C,C,R,R,A/R,I,I,C,R,C,I
+"Admin dashboard, parking inventory and closures",I,C,C,R,C,A/R,C,I,C,C,C,I
+"Rates, operating hours and reservation policies",I,C,C,R,C,A/R,I,R,C,I,C,C
+Operational and revenue reports with export,I,C,C,R,C,A/R,I,R,C,C,C,C
+"Security, privacy and compliance controls",I,C,I,R,R,R,C,R,R,A/R,C,C
+Performance and availability-refresh testing,I,C,I,R,R,R,R,R,A/R,R,I,I
+"Reliability, retries and record-preservation testing",I,C,I,R,R,R,C,R,A/R,R,I,C
+Accessibility and browser compatibility testing,I,C,R,R,R,C,I,I,A/R,C,C,I
+System integration and regression testing,I,C,C,R,R,R,R,R,A/R,R,C,C
+Stakeholder acceptance and approval evidence,R,A,C,C,C,C,C,C,R,C,R,R
+"Cloud deployment, monitoring and recovery",C,I,I,C,C,R,C,C,R,A/R,C,I
+Release readiness and authorization,A,C,I,R,R,R,R,R,R,R,C,C
+"Project tracking, risk and stakeholder reporting",A/R,R,I,C,C,C,C,C,C,C,C,C

@@ -1,0 +1,20 @@
+ID,Description,Probability (1–5),Impact (1–5),Risk Level,Owner,Response strategy,Status / Notes
+T01,"Availability feed is stale, allowing occupied spaces to appear open.",4,4,16,Backend/API Team,Validate timestamps before booking; hide stale spaces and notify affected drivers.,Open
+T02,Concurrent requests create a double booking.,3,5,15,Backend/API Team,Use transactions and constraints; cancel the duplicate and refund if needed.,Open
+T03,"A mapping, payment, or notification API fails or changes.",3,4,12,Mapping Team / Payment Integration Team / Backend/API Team,"Test contracts, monitor failures, and use retries; show addresses, pause checkout, or retain in-app status.",Open
+T04,Weak authentication or role controls expose customer or administrative data.,3,5,15,DevOps & Security Team / Backend/API Team,"Apply least privilege, encryption, password hashing, and authorization tests; contain and disable affected access.",Open
+T05,"Notification service failure causes missed confirmations, reminders, or alerts.",3,3,9,Backend/API Team,"Test providers and preferences; monitor failures, retry approved notices, and show in-app status.",Open
+T06,"The platform misses performance, refresh, or availability targets.",3,4,12,QA & Test Team / DevOps & Security Team,Load-test and monitor targets; prioritize booking/payment flows and remediate the limiting service.,Open
+T07,Accessibility or browser defects block core customer or admin workflows.,3,3,9,UX/UI Team / QA & Test Team,Test accessibility and supported browsers each cycle; fix blocking defects and rerun regression tests.,Open
+S01,Unprioritized requirements exceed the semester timeline.,4,4,16,Project Manager,Baseline the SRS and assess changes; defer lower-priority work with approval.,Open
+S02,Late API credentials or parking data block integration and testing.,3,4,12,Project Manager,Request access early; track dependencies and use labeled mocks or sandboxes when needed.,Open
+S03,Incompatible interfaces delay cross-team integration.,3,4,12,Backend/API Team,Agree on contracts and test integration early; prioritize the end-to-end flow.,Open
+S04,"Earlier work consumes the testing buffer, leaving critical defects.",4,4,16,Quality Assurance & Testing Team,Test each milestone; fix critical defects first and reduce optional scope if needed.,Open
+F01,API or cloud use costs more than planned.,3,3,9,Finance/Billing Lead,Estimate usage and review quotas; revise estimates and reduce excess use.,Open
+F02,"Incorrect rates, fees, or billing rules create wrong charges or payouts.",3,4,12,Payment Integration Team / Finance/Billing Lead,"Test totals, receipts, refunds, and reconciliation; pause and correct affected billing.",Open
+F03,Unclear cancellations or fraud increase refunds and chargebacks.,3,3,9,Finance/Billing Lead,"Publish policies, retain records, and use provider controls; review disputes and adjust controls.",Open
+F04,"Checkout or reservations are unavailable, losing otherwise bookable revenue.",3,4,12,Project Manager / Finance/Billing Lead,Monitor paid booking flows; restore checkout first and reconcile interrupted transactions.,Open
+P01,"A key contributor is unavailable, delaying dependent work.",3,4,12,Project Manager,Document work and assign backups; reassign work and adjust the sequence.,Open
+P02,"Gaps in payment, security, or mapping skills cause rework.",4,3,12,Team Leads,"Use training, pairing, and reviews; bring in specialist support and simplify optional features.",Open
+P03,Unshared decisions or interface changes cause duplicate work and rework.,4,4,16,Project Manager,Record decisions and keep Trello current; hold a coordination review when conflicts arise.,Open
+P04,Limited customer or operator review misses real workflows.,3,4,12,Project Manager,Schedule reviews and record feedback; use representative scenarios for unvalidated assumptions.,Open

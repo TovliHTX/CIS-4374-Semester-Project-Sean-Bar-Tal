@@ -212,3 +212,40 @@ Goal: Review occupancy, reservations, cancellations, and revenue over a selected
 
 User Story: I want to view operational reports so that I can evaluate parking demand and make informed management decisions. 
 
+UC16: As a registered parking customer, I want to sign in and out securely so that I can protect my account. (FR-03)
+
+UC17: As a parking customer, I want to add, edit, and remove saved vehicles so that I can book parking for the appropriate vehicle. (FR-04)
+
+UC18: As a parking customer, I want to view current and previous reservations and receipts so that I can confirm my bookings and expenses. (FR-15, FR-22)
+
+UC19: As a parking customer, I want eligible refunds processed with a recorded status so that I can recover payments under the applicable cancellation policy. (FR-23)
+
+UC20: As a parking customer, I want to manage notification preferences so that I receive relevant alerts. (FR-25)
+
+UC21: As a system administrator, I want access restricted by role so that only authorized personnel can use protected functions. (FR-05, NFR-09)
+
+UC22: As a finance and billing representative, I want authorized access to revenue, refund and reservation reports so that I can review transaction records. (FR-23, FR-29, NFR-09)
+
+### User story traceability and acceptance
+
+| Story | Functional requirements | Acceptance criteria |
+|---|---|---|
+| UC1 | FR-01–02 | At most five required fields; invalid fields and duplicate verified email rejected. |
+| UC2 | FR-06–07 | Map displays parking locations and current availability. |
+| UC3 | FR-08 | Entered destination returns relevant nearby parking. |
+| UC4 | FR-09 | Results respect price, distance, accessibility and availability filters. |
+| UC5 | FR-10 | Location details show address, price, hours, accessibility, availability and rules. |
+| UC6 | FR-11–14 | Valid time and duration accepted; availability checked immediately; conflicts rejected; unique confirmation issued after required payment. |
+| UC7 | FR-19–22 | Total displayed before payment; confirmed paid booking only on provider success; receipt generated. |
+| UC8 | FR-16, FR-23 | Eligible changes/cancellations follow policy; eligible refund status recorded. |
+| UC9 | FR-24 | Directions to selected parking open through mapping service. |
+| UC10 | FR-25 | Confirmation, reminder and expiration alerts are generated. |
+| UC11 | FR-17–18 | Extension checks availability and rules; additional charge displayed first. |
+| UC12 | FR-26 | Authorized operator can manage and deactivate inventory from dashboard. |
+| UC13 | FR-27 | Authorized operator can configure pricing, hours, limits and cancellations. |
+| UC14 | FR-28 | Occupancy visible; closed spaces cannot be reserved. |
+| UC15 | FR-29 | Authorized operator can generate and export selected-period reports. |
+| UC16–22 | As stated above | Demonstrate valid/invalid login; vehicle CRUD; history and receipts; eligible refunds; preferences; denied unauthorized access; authorized billing reports respectively. |
+
+All NFRs are acceptance conditions for relevant stories: performance (NFR-01–03), reliability (NFR-04–06), security (NFR-07–10), and accessibility/browser compatibility (NFR-11–12). Saving payment methods is optional, outside the current baseline unless approved via change control; full card details must never be stored.
+
